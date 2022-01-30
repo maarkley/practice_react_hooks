@@ -1,0 +1,21 @@
+.home-header {
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url('../assets/hls-resized-2.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    .home-header--claim {
+        position: absolute;
+        width: 100%;
+        bottom: 20%;
+        h1 {
+            width: 550px;
+            margin-bottom: 20px;
+            font-size: 64px;
+            font-weight: 200;
+        }
+    }
+}
